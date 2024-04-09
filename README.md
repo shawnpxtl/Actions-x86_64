@@ -2,18 +2,12 @@
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/shawnpxtl/Actions-Redmi-AX6?style=for-the-badge&label=Download)](https://github.com/shawnpxtl/Actions-Redmi-AX6/releases/latest)
 
-# Announcements
-
-Because I configured a soft router some time ago and I have no energy to work on this project, I plan to suspend the firmware update of Redmi AX6 (maybe one day when the NSS acceleration of IPQ807x is fully available, I will restart it? Not necessarily), I want to swallow it. welcome fork
-
-### ⚠WARNING: Do not operate the on-duty system update, and it is best to remove the download address in the configuration of the on-duty system update, otherwise it will really affect the use! ! ! ⚠
-
 # About this repository
 
 > This repository is based on [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
-> [OpenWRT](https://github.com/openwrt/openwrt)/[ImmortalWrt](https://github.com/immortalwrt/immortalwrt) branch from official source<br>
+> [Lean](https://github.com/coolsnowwolf/lede)
 
-Use Github Actions Automatically compile firmware for Redmi AX6  
+Use Github Actions Automatically compile firmware for x86_64 devices
 In principle, the firmware of this project is automatically compiled once a week, and you can also fork to modify it by yourself.  
 If you think this project is good, you can star it, I will be very grateful!  
 
@@ -25,10 +19,6 @@ If you think this project is good, you can star it, I will be very grateful!
 * DDNS
 * More functions by themselves (may be refreshed from time to time to check)...
 
-## Instructions
-
-Do you want to flashing [ImmortalWrt](tutorial/ImmortalWrt.en_US.md) or [OpenWrt](tutorial/OpenWrt.en_US.md)?
-
 ## Default IP address and password
    | project | value |
    | :--- | :--- |
@@ -37,29 +27,13 @@ Do you want to flashing [ImmortalWrt](tutorial/ImmortalWrt.en_US.md) or [OpenWrt
 
 ## Screenshot
 
-![luci\_admin\_status\_overview](.gitbook/assets/AX6-OP.png)
-
-## Issues
-#### Disclaimer: The following known issues are all personal measurements, and there may be unknown issues. I am not responsible for any issues caused by the firmware
-
-~~* As of the editing of this article, since the memory leak problem of ax6's openwrt is still unresolved, my personal suggestion is to restart every once in a while and add the following commands through the system-startup item-local startup script (note: to exit Before 0):~~
-   ```bash
-   echo "0 4 * * * sleep 5 && touch /etc/banner && reboot" >> /etc/crontabs/root
-   echo "0 16 * * * sleep 5 && touch /etc/banner && reboot" >> /etc/crontabs/root
-   ```
-   ~~Then restart the router once. It will restart at 4 am and 16 pm every day. If you can understand the principle of crontab, you can also customize the restart time.~~
-
-* (update)The problem of luci stuck due to memory seems to be fixed (I haven't seen luci crash for several days after booting), ~~but due to at least 5.15 kernel, it can't open 160Mhz.~~
-* (Update again) If you want to open 160Mhz, please find Generic 802.11acaxn in the network-wireless item, click edit, set the channel to 48 (pro-test available, you can also try other channels), and then set the country to US - United States, save and apply the settings, wait a minute
+![luci\_admin\_status\_overview](.gitbook/assets/x86.png)
 
 ## Credits
 
 * [Microsoft Azure](https://azure.microsoft.com/)
 * [GitHub Actions](https://github.com/features/actions)
-* [OpenWRT](https://github.com/openwrt/openwrt)
-* [ImmortalWrt](https://github.com/immortalwrt/immortalwrt)
+* [Lean](https://github.com/coolsnowwolf/lede)
 * [tmate](https://github.com/tmate-io/tmate)
 * [P3TERX](https://github.com/P3TERX)
-* [smith97](https://www.right.com.cn/forum/thread-6054985-1-1.html)
-* [robimarko/openwrt](https://github.com/robimarko/openwrt/tree/ipq807x-5.15)
-* and all OpenWRT/ImmortalWrt related contributors
+* and all OpenWRT/Lede related contributors
