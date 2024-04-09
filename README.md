@@ -22,8 +22,8 @@ If you think this project is good, you can star it, I will be very grateful!
 ## Default IP address and password
    | project | value |
    | :--- | :--- |
-   | Default IP address | `192.168.2.1` |
-   | Default password | `none` |
+   | Default IP address | `192.168.2.4` |
+   | Default password | `password` |
 
 ## Screenshot
 
