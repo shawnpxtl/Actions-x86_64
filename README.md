@@ -1,6 +1,6 @@
 [简体中文](./README.zh-CN.md) | English
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/shawnpxtl/Actions-Redmi-AX6?style=for-the-badge&label=Download)](https://github.com/shawnpxtl/Actions-Redmi-AX6/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/shawnpxtl/Actions-x86_64?style=for-the-badge&label=Download)](https://github.com/shawnpxtl/Actions-x86_64/releases/latest)
 
 # About this repository
 
@@ -22,8 +22,8 @@ If you think this project is good, you can star it, I will be very grateful!
 ## Default IP address and password
    | project | value |
    | :--- | :--- |
-   | Default IP address | `192.168.2.1` |
-   | Default password | `none` |
+   | Default IP address | `192.168.2.4` |
+   | Default password | `password` |
 
 ## Screenshot
 
