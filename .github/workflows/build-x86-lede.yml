@@ -216,9 +216,9 @@ jobs:
         commit: master
         github_token: ${{ secrets.GITHUB_TOKEN }}
         body: |
-          默认IP： 192.168.2.4 默认密码： 无
+          默认IP： 192.168.2.4 默认密码： password
           当前使用版本:【编译前的最后一次[➦主源码](https://github.com/coolsnowwolf/lede)更新记录】
-          Default IP:192.168.2.4 password:none
+          Default IP:192.168.2.4 password:password
           Current version: [The last [➦source code](https://github.com/coolsnowwolf/lede) update record before compiling]
           ${{ env.useVersionInfo }}
         artifacts: ${{ env.FIRMWARE }}/*
