@@ -27,7 +27,7 @@ If you think this project is good, you can star it, I will be very grateful!
 
 ## Screenshot
 
-![luci\_admin\_status\_overview](.gitbook/assets/x86.png)
+![luci\_admin\_status\_overview](.gitbook/assets/x86.jpg)
 
 ## Credits
 
