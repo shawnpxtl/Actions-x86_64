@@ -31,7 +31,7 @@
 
 ## 截图
 
-![luci\_admin\_status\_overview](.gitbook/assets/x86.png)
+![luci\_admin\_status\_overview](.gitbook/assets/x86.jpg)
 
 ## 感谢
 
